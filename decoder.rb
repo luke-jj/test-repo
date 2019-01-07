@@ -1,13 +1,13 @@
 KEY = {
-  1 => 'A'
-  2 => 'B'
-  3 => 'C'
-  4 => 'D'
-  5 => 'E'
-  6 => 'F'
-  7 => 'G'
-  8 => 'H'
-  9 => '*'
+  1 => 'A',
+  2 => 'B',
+  3 => 'C',
+  4 => 'D',
+  5 => 'E',
+  6 => 'F',
+  7 => 'G',
+  8 => 'H',
+  9 => 'I',
   10 => 'J'
 }
 
@@ -19,7 +19,9 @@ def decode(numbers)
     # Get the letter that corresponds to this number.
     letter = KEY[number]
     # Add it onto the string.
-    text += letter
+    if letter != nil
+      text += letter
+    end
   end
   # Return the decoded string.
   return text
