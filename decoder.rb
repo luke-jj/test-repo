@@ -10,8 +10,8 @@ KEY = {
   9 => 'I',
   10 => 'J',
   11 => 'K'
-  # tryn rellay hard to fix those merge conflicts
-  # !!
+  25 => 'Y',
+  26 => 'Z'
 }
 
 # Define a method that takes an array of numbers to decode.
